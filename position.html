@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Position</title>
+
+<style>
+.container {
+    position: relative;
+    height: 300px;
+    background: lightgray;
+}
+
+.relative {
+    position: relative;
+    left: 20px;
+    background: lightblue;
+    padding: 10px;
+}
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.absolute img {
+    width: 120px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    padding: 10px;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Position Example</h2>
+
+<div class="container">
+    <div class="relative">Relative Box</div>
+
+    <div class="absolute">
+        <img src="https://shorturl.at/XSHjg">
+    </div>
+</div>
+
+<div class="fixed">Fixed Box</div>
+
+</body>
+</html>
